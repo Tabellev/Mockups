@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.isabel.mockupsv2.SingleChoiceQuestion">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/ed_numerical_input"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="282dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/percent"
+        android:id="@+id/tv_percent"
+        android:textSize="50sp"
+        android:layout_alignBottom="@+id/ed_numerical_input"
+        android:layout_toRightOf="@+id/ed_numerical_input"
+        android:layout_toEndOf="@+id/ed_numerical_input" />
+
+    <!--button2-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/zero"
+        android:id="@+id/btn_zero"
+        android:textSize="30sp"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/ed_numerical_input"
+        android:layout_toLeftOf="@+id/ed_numerical_input"
+        android:layout_toStartOf="@+id/ed_numerical_input"
+        android:layout_marginRight="81dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="20dp" />
+
+    <!--button3-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/one"
+        android:id="@+id/btn_one"
+        android:textSize="30sp"
+        android:layout_above="@+id/btn_six"
+        android:layout_toRightOf="@+id/btn_five"
+        android:layout_toEndOf="@+id/btn_five"
+        android:layout_marginBottom="20dp" />
+
+    <!--button4-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/two"
+        android:id="@+id/btn_two"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/btn_one"
+        android:layout_centerHorizontal="true" />
+
+    <!--button5-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/three"
+        android:id="@+id/btn_three"
+        android:textSize="30sp"
+        android:layout_above="@+id/btn_eight"
+        android:layout_toRightOf="@+id/btn_seven"
+        android:layout_toEndOf="@+id/btn_seven"
+        android:layout_marginBottom="20dp" />
+
+    <!--button6-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/four"
+        android:id="@+id/btn_four"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/btn_three"
+        android:layout_toRightOf="@+id/btn_eight"
+        android:layout_toEndOf="@+id/btn_eight" />
+
+    <!--button7-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/five"
+        android:id="@+id/btn_five"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn_zero"
+        android:layout_alignLeft="@+id/btn_zero"
+        android:layout_alignStart="@+id/btn_zero"
+        android:layout_marginRight="20dp" />
+
+    <!--button8-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/six"
+        android:id="@+id/btn_six"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/btn_five"
+        android:layout_alignLeft="@+id/btn_one"
+        android:layout_alignStart="@+id/btn_one"
+        android:layout_marginRight="20dp" />
+
+    <!--button9-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/seven"
+        android:id="@+id/btn_seven"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/btn_six"
+        android:layout_alignLeft="@+id/btn_two"
+        android:layout_alignStart="@+id/btn_two"
+        android:layout_marginRight="20dp" />
+
+    <!--button10-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/eight"
+        android:id="@+id/btn_eight"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/btn_seven"
+        android:layout_alignLeft="@+id/btn_three"
+        android:layout_alignStart="@+id/btn_three"
+        android:layout_marginRight="20dp" />
+
+    <!--button11-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/nine"
+        android:id="@+id/btn_nine"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/btn_eight"
+        android:layout_alignLeft="@+id/btn_four"
+        android:layout_alignStart="@+id/btn_four"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/dot"
+        android:id="@+id/btn_dot"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/btn_nine"
+        android:layout_toRightOf="@+id/btn_nine"
+        android:layout_toEndOf="@+id/btn_nine" />
+
+    <!--textView2-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_three"
+        android:id="@+id/tv_question_three"
+        android:textSize="50sp"
+        android:layout_above="@+id/tv_percent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+    <!--textView3-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/swipe_message_continue"
+        android:id="@+id/tv_swipe_to_continue_three"
+        android:textSize="60sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/numerical_input"
+        android:id="@+id/tv_numerical_input"
+        android:textSize="70sp"
+        android:layout_above="@+id/btn_zero"
+        android:layout_alignRight="@+id/btn_two"
+        android:layout_alignEnd="@+id/btn_two" />
+
+</RelativeLayout>

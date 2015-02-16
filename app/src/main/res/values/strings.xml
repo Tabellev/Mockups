@@ -6,8 +6,31 @@
     <string name="action_settings">Settings</string>
     <string name="swipe_message_start">&lt;&lt;&lt;Swipe to start when instructed&lt;&lt;&lt;</string>
     <string name="question_one">On turbine 31, what is the status of P108?</string>
-    <string name="option_one">Running</string>
-    <string name="option_two">Not running</string>
+    <string name="q1_o1">Running</string>
+    <string name="q1_o2">Not running</string>
     <string name="swipe_message_continue">&lt;&lt;&lt;Swipe to continue&lt;&lt;&lt;</string>
+    <string name="question_two">Which steam generator is faulty?</string>
+    <string name="q2_o1">SG-1</string>
+    <string name="q2_o2">SG-2</string>
+    <string name="q2_o3">SG-3</string>
+    <string name="question_three">What is the narrow-range level in steam generator 1?</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="dot">.</string>
+    <string name="percent">%</string>
+    <string name="numerical_input">42</string>
+    <string name="run_one_finished">Run 1 finished!</string>
+    <string name="start_new_run">&lt;&lt;&lt;Swipe to start run 2 when instructed&lt;&lt;&lt;</string>
+    <string name="session_finished">The session is finished!</string>
+    <string name="results">Your results:\n Total number of questions: 50 \n Right answers: 45 \n Wrong answers: 3 \n Not answered: 2 \n
+        Time used: 1 hour </string>
 
 </resources>

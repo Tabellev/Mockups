@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.isabel.mockupsv2.EndScreen">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/session_finished"
+        android:id="@+id/tv_session_finished"
+        android:textSize="60sp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/results"
+        android:id="@+id/tv_results"
+        android:textSize="50sp"
+        android:layout_below="@+id/tv_session_finished"
+        android:layout_alignLeft="@+id/tv_session_finished"
+        android:layout_alignStart="@+id/tv_session_finished"
+        android:layout_marginTop="90dp" />
+</RelativeLayout>
